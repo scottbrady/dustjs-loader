@@ -1,0 +1,38 @@
+{
+  "name": "dustjs-loader",
+  "version": "1.0.0",
+  "description": "Require and automatically compile dustjs (.dust) files.",
+  "author": {
+    "name": "Scott Brady",
+    "email": "scott@sbrady.com"
+  },
+  "keywords": [
+    "dustjs",
+    "dustjs",
+    "template",
+    "load",
+    "compile",
+    "extension"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottbrady/dustjs-loader"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": "*"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/scottbrady/dustjs-loader/blob/master/LICENSE"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/scottbrady/dustjs-loader/issues"
+  },
+  "homepage": "https://github.com/scottbrady/dustjs-loader",
+  "dependencies": {
+    "bluebird": "~2.7.1",
+    "dustjs-linkedin": "~2.5.1"
+  }
+}
