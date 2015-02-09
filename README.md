@@ -48,6 +48,10 @@ template({ foo : 42 })
   });
 ```
 
+## Dust templates in the browser
+
+The [dustjs-browserify module](https://github.com/scottbrady/dustjs-browserify) makes it easy to use dust templates in the browser.
+
 ## Dustjs documentation
 
 * [Dust Tutorial](https://github.com/linkedin/dustjs/wiki/Dust-Tutorial)
