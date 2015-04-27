@@ -29,12 +29,14 @@ template({ foo : 42 }, function (error, html) {
 });
 ```
 
-Example using a promise:
+Example using a promise library such as `bluebird`:
 
 ```
 require('dustjs-loader').register({
-   path    : 'lib/templates',
-   promise : true
+   path : 'lib/templates',
+
+   // Promises library you with to use, please make sure it `npm install` it.
+   promises : 'bluebird'
 });
 
 var template = require('./template.dust');
@@ -46,6 +48,17 @@ template({ foo : 42 })
   .catch(function (error) {
     ...
   });
+```
+
+Example using ES6 promise:
+
+```
+require('dustjs-loader').register({
+   path : 'lib/templates',
+
+   // Will use promises but won't require any libraries expecting browser to provide.
+   promises : true
+});
 ```
 
 ## Dust templates in the browser

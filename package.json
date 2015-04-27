@@ -32,7 +32,6 @@
   },
   "homepage": "https://github.com/scottbrady/dustjs-loader",
   "dependencies": {
-    "bluebird": "~2.7.1",
     "dustjs-linkedin": "~2.5.1"
   }
 }
